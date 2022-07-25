@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(132, 148, 168);
+}
+#drum-machine {
+  min-width: 350px;
+  max-width: 350px;
+  margin: auto auto;
+  background-color: rgb(82, 82, 82);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 3px 1px black;
+}
+#pads {
+  font-size: 3.5em;
+}
+#display {
+  height: 150px;
+  background-color: rgb(82, 82, 82);
+  border-radius: 10px 10px 0 0;
+}
+.drum-pad {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  width: 29%;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 1px black;
+}
+#screen {
+  background-color: rgb(36, 36, 36);
+  box-shadow: 0 0 3px 2px black;
+  color: aqua;
+  font-size: 2em;
+  margin: auto;
+  min-width: 250px;
+  font-weight: bold;
+  padding-left: 7px;
+  min-height: 50px;
+  border-radius: 5px;
+  font-family: "Roboto";
+}
+#mode {
+  width: 35px;
+  margin-right: auto;
+}
+#inlab {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 5px;
+}
+.drum-pad:active {
+  background-color: rgb(24, 24, 24);
+}
